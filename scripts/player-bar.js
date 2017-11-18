@@ -22,7 +22,7 @@
     const previousSongIndex = currentSongIndex -1;
     if (previousSongIndex < 0) {return;}
 
-    const previousSong = album.song[previousSongIndex];
+    const previousSong = album.songs[previousSongIndex];
     player.playPause(previousSong);
   });
 }
